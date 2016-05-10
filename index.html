@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>a2 by ewerybody</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>a2</h1>
+        <h2>Script managing and developing framework for Autohotkey.</h2>
+        <a href="https://github.com/ewerybody/a2" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="welcome-to-the-a2-wiki" class="anchor" href="#welcome-to-the-a2-wiki" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to the a2 wiki!</h1>
+
+<p>a2 is the wannabe new <a href="http://www.heise.de/ct/projekte/Windows-weitergedacht-ac-tivAid-284115.html">ac'tivAid</a>! Still an <a href="http://ahkscript.org/">Autohotkey</a> script managing and developing framework.<br>
+It's in early development but there are a couple nice things already. </p>
+
+<p>main loop layout:
+<img src="https://raw.githubusercontent.com/ewerybody/a2/master/doc/a2_layout.gif?raw=true" alt=""></p>
+
+<h3>
+<a id="main-goals" class="anchor" href="#main-goals" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>main goals</h3>
+
+<ol>
+<li>decoupled ui and runtime</li>
+<li>use of latest Autohotkey_L</li>
+<li>active open source development</li>
+<li>easier contributing, setup and more flexibility</li>
+</ol>
+
+<h4>
+<a id="1-decoupled-ui-and-runtime" class="anchor" href="#1-decoupled-ui-and-runtime" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. decoupled ui and runtime</h4>
+
+<p>The settings UI is now made with Qt via PySide as it's a much more flexible and matured interface platform as the former Autohotkey embedded UI stuff. Implemented with Python the UI can also be a stronger platform for managing database interactions and project environment maintenance with a web base.</p>
+
+<p>And without the UI the Autohotkey runtime can be MUCH lighter and reliable and concentrate on what Autohotkey can do best.</p>
+
+<h4>
+<a id="2-use-of-latest-autohotkey_l" class="anchor" href="#2-use-of-latest-autohotkey_l" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. use of latest Autohotkey_L</h4>
+
+<p>For ac'tivAid we tried several times to upgrade Autohotkey but the complexity and limited debugging capabilities kept this from succeeding.
+Autohotkey_L is quite mature now and <a href="https://github.com/Lexikos/AutoHotkey_L">under active development too</a>. Far beyond objects, arrays, COM support, Unicode and 64bit there are <a href="http://ahkscript.org/docs/AHKL_Features.htm">lots of improvements to the old AHK</a>.</p>
+
+<h4>
+<a id="3-active-open-source-development" class="anchor" href="#3-active-open-source-development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. active open source development</h4>
+
+<p>With github this already feels much better than it ever was with ac'tivAid and the heise SVN.</p>
+
+<p>Maybe we can even do the module development and maintenance from here!...</p>
+
+<h4>
+<a id="4-easier-contributing-setup-and-more-flexibility" class="anchor" href="#4-easier-contributing-setup-and-more-flexibility" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4. easier contributing, setup and more flexibility</h4>
+
+<p>Most of the module setup will already be done right from the UI without writing any code. In fact you'll be able to create modules that don't require you to write any code at all. Although this will be restricted to Hotkey bending and automation you'll be able to define the scopes in which those work more easily and precisely.</p>
+
+<h2>
+<a id="authorscontributors" class="anchor" href="#authorscontributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a name="dev-team"></a>Authors/Contributors</h2>
+
+<ul>
+<li><a href="https://github.com/ewerybody">ewerybody</a></li>
+<li><a href="https://github.com/lipkau">Oliver Lipkau</a></li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/ewerybody/a2/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/ewerybody/a2/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/ewerybody/a2"></a> is maintained by <a href="https://github.com/ewerybody">ewerybody</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
